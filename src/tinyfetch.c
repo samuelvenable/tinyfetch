@@ -554,7 +554,7 @@ void tinyascii(char *TinyfetchUserSpecifiedDistroChar) {
 #ifdef _WIN32
     distro_name = strdup("Windows");
 #elif defined(__FreeBSD__)
-    distro_name = strdup("NetBSD");
+    distro_name = strdup("FreeBSD");
 #elif defined(__NetBSD__)
     distro_name = strdup("NetBSD");
 #else
