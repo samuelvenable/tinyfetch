@@ -8,4 +8,4 @@ An optional dependency can be linked into tinyfetch which is used for GPU detect
 # Supported platforms
 Linux<br>
 FreeBSD<br>
-OpenBSD
+NetBSD
