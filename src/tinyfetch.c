@@ -452,7 +452,7 @@ int get_cpu_count(void) {
 #ifdef _WIN32
   SYSTEM_INFO sysinfo;
   GetSystemInfo(&sysinfo);
-  return sysinfo.dwNumberOfProcessors;
+  return (int)sysinfo.dwNumberOfProcessors;
 #endif
 #if defined(__linux__)
   return sysconf(_SC_NPROCESSORS_ONLN);
